@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Cormorant SC', serif;
+   
+    }
+
+body{
+
+    background-image:url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
+}
+
+.wrapper .sidebar{
+    background:#2A3E4B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+}
+
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid white;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #0c7db1;
+
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+
+.content {
+
+    display: fixed;
+    font-size: 18px;   
+    font-weight: bold;
+    text-align: center;
+    margin-left:170px;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+.about{
+    
+    font-size: 18px;   
+    font-weight: bold;
+    text-align: center;
+    margin-left:170px;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+.about h1{
+
+    padding:20px;
+}
+
+.about img{
+    
+    height:240px;
+    width: 280px;
+    border-radius: 50%;
+}
+
+.education{
+font-size: 18px;   
+font-weight: bold;
+text-align: center;
+margin-left:170px;
+margin-top: 10%;
+overflow: hidden;
+
+}
+
+.portfolio{
+font-size: 18px;   
+font-weight: bold;
+text-align: center;
+margin-left:170px;
+margin-top: 10%;
+overflow: hidden;
+    
+    }
+
+ .contact{
+font-size: 18px;   
+font-weight: bold;
+text-align: center;
+margin-left:170px;
+margin-top: 10%;
+overflow: hidden;
+           }   
+
+
+
+.content p{
+ 
+   
+    text-align:center;
+    padding:20px;
+    margin-left:20px;
+   line-height: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+span{
+
+    color:#527992;
+}
+
+.content button{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:120px ;
+    border-radius: 15px;
+    padding: 5px;
+    background-color:black;
+    color:white;
+
+}
+
+html{
+    scroll-behavior: smooth;
+       
+}
+
+#content{
+
+ min-height: 160vh;
+}
+
+#about{
+   
+    min-height: 100vh;
+}
+
+#education{
+    min-height: 100vh;
+
+}
+
+#portfolio{
+    min-height: 100vh;
+}
+
+#contact{
+    min-height: 100vh;
+}
+
